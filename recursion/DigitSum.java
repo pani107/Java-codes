@@ -6,7 +6,7 @@ public class DigitSum {
     }
 
     public static int digit(int n) {
-        if (n % 10 == n) {
+        if (n % 10 == n) {     //Best case.
             return n;
         } else {
             return n % 10 + digit(n / 10);
