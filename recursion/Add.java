@@ -6,6 +6,7 @@ public class Add {
         System.out.println(add(10));//print statement
     }
     public static int add(int n) {
+        // Best Case.
         if (n<=1){
             return n;
         }
