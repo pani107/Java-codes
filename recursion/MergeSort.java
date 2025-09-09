@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class MergeSort {
-    public static void main(String[] args) {  // mein method.
+    public static void main(String[] args) {  // mein method
         int[] arr = {5, 4, 7, 8, 3, 9, 10};
         mergesort(arr, 0, arr.length);
         System.out.println(Arrays.toString(arr));
