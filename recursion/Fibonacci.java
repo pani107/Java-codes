@@ -8,7 +8,7 @@ public class Fibonacci {
         System.out.println(fibo(4));
     }
     public static int fibo(int n){
-        if (n<=1){
+        if (n<=1){ //best case
             return n;
         }
         else{
