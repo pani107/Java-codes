@@ -10,7 +10,7 @@ public class Fact {
         System.out.println(digit(sum));
     }
     public static int digit(int sum) {
-        if (sum % 10 == sum) {
+        if (sum % 10 == sum) { //best case
             return sum;
         } else {
             return sum % 10 + digit(sum / 10);
